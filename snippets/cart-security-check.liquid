@@ -1,0 +1,9 @@
+<div class="security-check">
+  <div class="item">
+    <label for="upload-id">SECURITY ID NUMBER IE LICENCE OR PASSPORT*</label>
+    <input id="upload-id" onclick="cartTerm();"type="text" required name="attributes[SECURITY ID NUMBER IE LICENCE OR PASSPORT]">
+  </div>
+  <div class="item" id="uploadcare_widget" empty="true">
+    <input type="hidden" onclick="cartTerm();"  data-multiple="false"   role="uploadcare-uploader" name="attributes[ID Photo]" data-public-key="{{ settings.pubkey }}"/>
+  </div>
+</div>

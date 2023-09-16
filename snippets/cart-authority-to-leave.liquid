@@ -1,0 +1,8 @@
+<div class="authority-to-leave">
+  <h4>Authority to leave <div class="tooltip">{% render 'icon-question-mark' %} <span class="tooltip-info">{{ section.settings.info_autoritytoleave }}</span></div></h4>
+  <label class="toggle-switch-container">
+    <input type="hidden" name="attributes[Authority To Leave]" value="No">
+    <input type="checkbox" name="attributes[Authority To Leave]" value="Yes" {% if cart.attributes["Authority To Leave"] == "Yes" or cart.attributes["Authority To Leave"] == blank %} checked{% endif %}>
+    <span class="toggle-switch"></span>
+  </label>
+</div>
